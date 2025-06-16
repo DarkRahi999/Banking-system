@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*I_---------{  google font-family CDN  }---------- */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Salsa&display=swap');
+
+/*W_----------{  Author      :   Bisakto-Rahi  }----------_*/
+/*W_----------{  Create      :   16/06/2025    }-----------_*/
+
+/*G_--------------{  Start Default Style For all  }--------------_*/
+/*-_----------{  My Color Variables  }----------_*/
+:root {
+  --danger: #dc3545;
+  --red: #fc2a1b;
+  --pink: #e83e8c;
+  --purple: #6f42c1;
+  --indigo: #6610f2;
+  --primary: #0d6efd;
+  --blue: #008cff;
+  --dark-blue: #17a2b8;
+  --light-blue: #0dcaf0;
+  --light-green: #20c997;
+  --success: #198754;
+  --light-green: #28a745;
+  --yellow: #ffc107;
+  --orange: #fd7e14;
+  --highlight-x: #fff3cd;
+  --highlight-y: #ffff5b;
+  --black: #000;
+  --dark: #212529;
+  --gray: #6c757d;
+  --white: #ffffff;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --light-border-color: #dee2e6;
+  --dark-border-color: #6c757d;
+  /*-_----------{  My Font Variables  }----------_*/
+  --font-1: "Salsa", cursive;
+  --font-2: "Caveat", cursive;
+  --font-3: "Caveat Brush", cursive;
+  --font-4: "Merienda", cursive;
+  --font-5: "Merriweather", serif;
+}
+/*R_----------{  Last Update   :   16/06/2025   }----------_*/
+
+/*O_----------{  My some Font Classes  }---------- */
+*{
+  font-family: var(--font-1);
+}        /*Y_----------{  Font weight : 0nly 400 are available  }---------- */
+p{
+  font-family: var(--font-2);
+  font-weight: 500;
+  text-align: justify;
+}        /*Y_----------{  Font weight : 400 - 700	are available  }---------- */
+.sub-heading{
+  font-family: var(--font-3);
+}        /*Y_----------{  Font weight : 0nly 400 are available  }---------- */
+.pera{
+  font-family: var(--font-4);
+  font-weight: 600;
+  text-align: justify;
+}       /*Y_----------{  Font weight : 300 - 900	are available  }---------- */
+.pera-cen{
+  font-family: var(--font-4);
+  font-weight: 600;
+  text-align: center;
+}
+.pera-2{
+  font-family: var(--font-5);
+  font-weight: 500;
+  text-align: justify;
+}       /*Y_----------{  Font weight : 400 - 700	are available  }---------- */
+.pera-2-cen{
+  font-family: var(--font-5);
+  font-weight: 500;
+  text-align: center;
+}
+/*G_-------------{  default Style for Full-Website  }---------------_*/
+*{
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+:hover,
+:active,
+:focus{
+  outline: 0;
+  outline-offset: 0;
+}
+a,
+a:hover{
+  text-decoration: none;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+body{
+  max-width: 100%;
+  font-size: 100%;
+  font-family: var(--my-font-1);
+  line-height: 1.5;
+  color: var(--gray-900);
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+/*K_----------{  scrollbar style  }---------- */
+::-webkit-scrollbar{
+  width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #000;
+}
+/*//_--------------{  Default Style For all  }--------------_*/
+
