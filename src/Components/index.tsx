@@ -3,6 +3,7 @@
 interface BankAccount{
     bankAccount : number;
     balance : number;
+    // pin: number;
     withdraw( amount : number ): void;
     deposit( amount : number ): void;
     checkBalance() : void; 
@@ -47,3 +48,27 @@ class MyBankAccount implements BankAccount {
     }
 }
 
+class bankCustomer{
+    firstName : string;
+    lastName : string;
+    account : BankAccount;
+    gender : string;
+    age: number;
+    phoneNumber:  number;
+
+    constructor(firstName:string, lastName:string, account:BankAccount, gender:string, age:number, phoneNumber:number){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.account = account;
+        this.gender = gender;
+        this.age = age;
+        this.phoneNumber = phoneNumber;
+    }
+}
+
+const account:MyBankAccount[] = [
+    new MyBankAccount( 1001, 768),
+    new MyBankAccount( 1002, 8421),
+    new MyBankAccount( 1003, 372),
+    new MyBankAccount( 1004, 1003)
+];
